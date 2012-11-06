@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app='LiveMarkdownApp'>
+	<head>
+		<link rel="stylesheet/less" type="text/css" href="livemarkdown.less">
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.3.0/less-1.3.0.min.js"></script>
+
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular-sanitize.min.js"></script>
+
+		<script type='text/javascript' src="markdown.js"></script>
+		<script type='text/javascript' src="livemarkdown.js"></script>
+	</head>
+
+	<body ng-controller="MarkdownController">
+		<textarea class="input" ng-model="input"></textarea>
+
+		<div class="output" ng-bind-html="output()"></div>
+	</body>
+</html>

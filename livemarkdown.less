@@ -1,0 +1,32 @@
+@shadow-colour: #888;
+@small-gap: 10px;
+
+.simple-border {
+	border: solid 1px #555;
+}
+
+body {
+	color: #444;
+	font-size: 25px;
+	background-image: -webkit-radial-gradient(center, 25em 25em, white, #eff6fc);
+}
+
+
+.input, .output {
+	width: 45%;
+	height: 400px;
+	background-color: white;
+	.simple-border;
+	overflow-y: hidden;
+	resize: none;
+	margin: 20px;
+	padding: 5px;
+	font-size: 25px;
+
+	h1 {
+		margin-top: 0;
+	}
+}
+
+.input  { float: left; }
+.output { float: right; }
