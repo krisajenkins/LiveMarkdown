@@ -12,5 +12,5 @@ Thanks to [Christoph Dorn's markdown parser][markdown].
 
 [gbs]: http://krisajenkins.github.com/GoogleBootcampSlides2012
 [ang]: http://www.angularjs.org/
-[live]: http://krisajenkins.github.com/livemarkdown/
+[live]: http://krisajenkins.github.com/LiveMarkdown/
 [markdown]: https://github.com/cadorn/markdown-js.git
